@@ -110,6 +110,11 @@ Directly prints results if run directly.
 May also be imported, yielding results one by one.
 
 
+```bash
+python findlargefiles.py
+```
+
+
 ### Approximating *pi*
 
 This script is useful to show a way to approximate the value of pi using a Monte Carlo method. It is also optimized using the `@jit` (*just-in-time*) decorator from the [numba](https://numba.pydata.org/) library.
